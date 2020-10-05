@@ -1,12 +1,14 @@
-れんしゅう
-hdjsahfdjksalhfdjklah
-12345678912456789
-１２３４５６７８９０１２３５６７８９６５４３２１
-ｆｈだｊo;gsuaiおｇふぇｂｆｄｓｊｋbj
-
-
-change10.5
-
-morning///\\\
-
-night////--------
+#include <stdio.h>
+  
+void main(){
+    //  サイズSIZEの配列を用意する。
+    int nums[] = { 1,2,3,4,5 };
+    int *p = NULL;
+    int i;
+    p = nums; //  pにnumsのアドレスを入力
+    for( i = 0 ; i < 5; i++){
+        printf("%d ",*p);
+        p++;   //  p2のアドレスをインクリメント
+    }
+    printf("¥n");
+}
