@@ -11,4 +11,5 @@ void main(){
         p++;   //  p2のアドレスをインクリメント
     }
     printf("¥n");
+    printf("¥n");
 }
